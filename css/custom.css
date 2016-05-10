@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../fonts/laton.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-bold';
+  src: url('../fonts/latob.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "lato-bold";
+}
+body {
+	font-family: "lato-regular";
+}
+.navbar-default .navbar-brand {
+  color: #5f5f5f;
+}
+a.navbar-brand {
+	font-family: "lato-bold";
+}
+.txtgreen {
+	color: #70b606;
+}
+.navbar.navbar-default.navbar-fixed-top {
+	background-color: rgba(255,255,255,1);
+}
+.slides {
+	margin-top: 80px;
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image: url("../images/sources/bg.jpg");
+}
+.bans {
+	padding: 1.6rem 0;
+	background-color: #70b606;
+	text-align: center;
+	color: #fff;
+}
+.bans h3 {
+	margin:0;
+	padding:0.4rem 0;
+}
+.txtslider {
+	text-align: left;
+	margin: 8rem 0 14rem 0;
+}
+.txtslider h2 {
+	background-color: rgba(255,255,255,0.6);
+	color: #70b606;
+	padding: 16px;
+	font-family: "lato-bold";
+}
+.txtslider p {
+	background-color: rgba(255,255,255,0.6);
+	padding:16px;
+}
+.services {
+	text-align: center;
+	padding: 6rem 0;
+}
+.bserv {
+	padding: 4.5rem;
+	border-radius: 100%;
+	color:#fff;
+	background-color: #282828;
+}
+.works {
+	background-color: #eee;
+	padding: 6rem 0;
+}
+.works h3, .works p {
+	text-align: center;
+}
+.works p {
+	padding-bottom: 2rem;
+}
+a.btn.btn-default.btn-lg {
+	font-size: 100%;
+}
+.workslide img {
+	width: 100%;
+}
+.teams {
+	padding: 6rem 0;
+}
+h3.hteams, p.hteams {
+	text-align: center;
+}
+img.boxteams {
+	border-radius: 100%;
+	width: calc(100% - 16px);
+	margin: 8px;
+}
+h4.boxteams {
+	text-align: center;
+	margin:0;
+	padding:0 0 0.3rem 0;
+}
+p.boxteams {
+	text-align: center;
+	color: rgba(0,0,0,0.6);
+	font-size: 100%;
+}
+.proms {
+	padding: 6rem 0;
+	background-color: #eee;
+}
+img.boxproms {
+	width: 100%;
+}
+h3.boxproms {
+	margin:0;
+	padding:0 0 10px 0;
+}
+p.boxproms {
+	text-align: justify;
+	padding:0 0 6px 0;
+}
+button.boxproms {
+	background-color: #70b606;
+	color: #282828;
+	border:0;
+	border-radius: 3px;
+	padding:8px 16px;
+	font-family: "lato-bold";
+	transition: all 0.3s ease-out;
+}
+button.boxproms:hover {
+	background-color: #79c308;
+}
+i.boxproms {
+	padding-right: 6px;
+}
+.partners {
+	padding:6rem 0;
+}
+h3.boxpart {
+	margin:0;
+	padding:0 0 8px 0;
+}
+p.boxpart {
+	text-align: justify;
+}
+.partners img {
+	width: 100%;
+}
+.contacts {
+	background-color: #282828;
+	padding: 3rem 0;
+	color: rgba(255,255,255,1);
+}
+i.touchs.fa {
+	margin-right: 0.8rem;
+	color: #70b606;
+	font-size: 15pt;
+}
+i.sosmeds.fa {
+	color: #fff;
+	background-color: #70b606;
+	margin-right: 0.8rem;
+	padding-top: 0.8rem;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 100%;
+}
+.contacts p {
+	color: rgba(255,255,255,0.8);
+	text-align: justify;
+}
+.copyrights {
+	padding:1rem 0;
+	background-color: #202020;
+}
+.copyrights p {
+	margin:0;
+	padding:0;
+	color: rgba(255,255,255,0.2);
+}
+.copyrights a {
+	color: #70b606;
+}
+.copyrights a:hover {
+	text-decoration: none;
+	color: #79c308;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav > li {
+  	border-bottom: 2px solid transparent;
+  	transition: all 0.3s ease-out;
+  }
+  .navbar-nav > li:hover {
+  	border-bottom: 2px solid #70b606;
+  }
+  .txtslider h2, .txtslider p {
+  	width: 600px;
+  }
+}
+@media (min-width: 960px) {
+	img.boxteams {
+		width: calc(100% - 32px);
+		margin: 16px;
+	}
+}

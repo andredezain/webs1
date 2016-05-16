@@ -182,14 +182,13 @@ i.sosmeds.fa {
 	padding:0;
 	color: rgba(255,255,255,0.2);
 }
-.copyrights a {
+.contacts a, .copyrights a {
 	color: #70b606;
 }
-.copyrights a:hover {
+.contacts a:hover, .copyrights a:hover {
 	text-decoration: none;
 	color: #79c308;
 }
-
 
 @media (min-width: 768px) {
   .navbar-nav > li {
